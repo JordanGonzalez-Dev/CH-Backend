@@ -1,8 +1,8 @@
 const fs = require("fs");
-const DB = require("../models/productos.json");
+const DB = require("./data.json");
 
-const saveToDatabase = (DB) => {
-    fs.writeFileSync("../models/productos.json", JSON.stringify(DB, null, 2), {
+const saveToDatabase = (database) => {
+    fs.writeFileSync("./models/data.json", JSON.stringify(database, null, 2), {
         encoding: "utf-8",
     });
 };

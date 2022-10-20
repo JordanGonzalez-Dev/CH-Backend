@@ -1,6 +1,6 @@
 //const url = ["/api/productos", '/api/productos/1','/api/productos/2', "/api/carrito"];
 
-const admin = true;
+const admin = false;
 
 const authorizer = (req, res, next) => {
     //const search = url.find((el) => el === req.url);

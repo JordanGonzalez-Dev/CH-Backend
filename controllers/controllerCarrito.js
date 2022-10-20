@@ -1,4 +1,4 @@
-const utilsCarrito = require("../utils/utilsCarrito");
+const utilsCarrito = require("../models/utilsCarrito");
 
 const getAllCart = (req, res) => {
     const allCart = utilsCarrito.getAll();
