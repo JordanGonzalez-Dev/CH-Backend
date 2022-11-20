@@ -1,4 +1,5 @@
 const utilsCarrito = require("../models/utilsCarrito");
+const utilsProductos = require("../models/utilsProductos");
 
 const getAllCart = (req, res) => {
     const allCart = utilsCarrito.getAll();
@@ -37,6 +38,10 @@ const createCart = (req, res) => {
             result: "Producto no cumple con el formato requerido!",
         });
     }
+
+    productos.forEach(e => {
+        e.id = utilsProductos.getAll().length + 1
+    });
 
     const newCart = {
         id: utilsCarrito.getAll().length + 1,
