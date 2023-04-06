@@ -1,0 +1,15 @@
+{
+  "name": "clase_07-desafio-3---servidor-con-express",
+  "version": "1.0.0",
+  "description": "Desafíos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "node ./src/app.js"
+  },
+  "author": "Jordan Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

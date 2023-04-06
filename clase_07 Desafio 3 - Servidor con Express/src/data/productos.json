@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Cortante Batman",
+        "description": "Incluye dos unidades, cortante y marcador. Tamaño a elección",
+        "price": 366,
+        "thumbnail": "con foto",
+        "code": "CB14",
+        "stock": 15,
+        "id": 1
+    },
+    {
+        "title": "Cortante Escudo Capitan América",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño a elección",
+        "price": 366,
+        "thumbnail": "con foto",
+        "code": "CB12",
+        "stock": 15,
+        "id": 2
+    },
+    {
+        "title": "Cortante Gorro Papá Noel",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño en 8cm",
+        "price": 475,
+        "thumbnail": "con foto",
+        "code": "CB19",
+        "stock": 20,
+        "id": 3
+    },
+    {
+        "title": "Cortante Cara Zorro",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño a elección",
+        "price": 366,
+        "thumbnail": "con foto",
+        "code": "CB64",
+        "stock": 5,
+        "id": 4
+    },
+    {
+        "title": "Cortante Cactus con flor",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño 8cm",
+        "price": 475,
+        "thumbnail": "con foto",
+        "code": "CB20",
+        "stock": 10,
+        "id": 5
+    },
+    {
+        "title": "Cortante Ciervo",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño 8cm",
+        "price": 475,
+        "thumbnail": "con foto",
+        "code": "CB2",
+        "stock": 7,
+        "id": 6
+    },
+    {
+        "title": "Cortante Ancla",
+        "description": "Incluye una unidad. Tamaño a elección",
+        "price": 310,
+        "thumbnail": "con foto",
+        "code": "CB3",
+        "stock": 26,
+        "id": 7
+    },
+    {
+        "title": "Cortante Huella Paw Patrol",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño 8cm",
+        "price": 475,
+        "thumbnail": "con foto",
+        "code": "CB5",
+        "stock": 45,
+        "id": 8
+    },
+    {
+        "title": "Cortante Barco velero",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño a elección",
+        "price": 475,
+        "thumbnail": "con foto",
+        "code": "CB6",
+        "stock": 23,
+        "id": 9
+    },
+    {
+        "title": "Cortante Globo aerostatico",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño a elección",
+        "price": 366,
+        "thumbnail": "con foto",
+        "code": "CB11",
+        "stock": 20,
+        "id": 10
+    }
+]
