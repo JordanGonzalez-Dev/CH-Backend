@@ -1,0 +1,138 @@
+[
+    {
+        "title": "Cortante Silueta Cisne",
+        "description": "Incluye una unidad. Tamaño en 8cm",
+        "price": 401,
+        "thumbnail": [],
+        "code": "CB24",
+        "stock": 5,
+        "id": 1,
+        "status": true,
+        "category": "cortantes"
+    },
+    {
+        "title": "Cortante Escudo Capitan América",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño a elección",
+        "price": 366,
+        "thumbnail": [],
+        "code": "CB12",
+        "stock": 15,
+        "id": 2,
+        "status": true,
+        "category": "cortantes"
+    },
+    {
+        "title": "Cortante Gorro Papá Noel",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño en 8cm",
+        "price": 475,
+        "thumbnail": [],
+        "code": "CB19",
+        "stock": 20,
+        "id": 3,
+        "status": true,
+        "category": "cortantes"
+    },
+    {
+        "title": "Cortante Cara Zorro",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño a elección",
+        "price": 366,
+        "thumbnail": [],
+        "code": "CB64",
+        "stock": 5,
+        "id": 4,
+        "status": true,
+        "category": "cortantes"
+    },
+    {
+        "title": "Cortante Cactus con flor",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño 8cm",
+        "price": 475,
+        "thumbnail": [],
+        "code": "CB20",
+        "stock": 10,
+        "id": 5,
+        "status": true,
+        "category": "cortantes"
+    },
+    {
+        "title": "Cortante Ciervo",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño 8cm",
+        "price": 475,
+        "thumbnail": [],
+        "code": "CB2",
+        "stock": 7,
+        "id": 6,
+        "status": true,
+        "category": "cortantes"
+    },
+    {
+        "title": "Cortante Ancla",
+        "description": "Incluye una unidad. Tamaño a elección",
+        "price": 310,
+        "thumbnail": [],
+        "code": "CB3",
+        "stock": 26,
+        "id": 7,
+        "status": true,
+        "category": "cortantes"
+    },
+    {
+        "title": "Cortante Huella Paw Patrol",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño 8cm",
+        "price": 475,
+        "thumbnail": [],
+        "code": "CB5",
+        "stock": 45,
+        "id": 8,
+        "status": true,
+        "category": "cortantes"
+    },
+    {
+        "title": "Cortante Globo aerostatico",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño a elección",
+        "price": 366,
+        "thumbnail": [],
+        "code": "CB11",
+        "stock": 20,
+        "id": 10,
+        "status": true,
+        "category": "cortantes"
+    },
+    {
+        "title": "Cortante Mamadera",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño a elección",
+        "price": 366,
+        "thumbnail": [],
+        "code": "CB84",
+        "stock": 15,
+        "status": true,
+        "category": "cortantes",
+        "id": 11
+    },
+    {
+        "title": "Cortante Batman",
+        "description": "Incluye dos unidades, cortante y marcador. Tamaño a elección",
+        "price": 366,
+        "thumbnail": [],
+        "code": "CB14",
+        "stock": 15,
+        "id": 12,
+        "status": true,
+        "category": "cortantes"
+    },
+    {
+        "title": "Cortante Barco velero",
+        "description": "Incluye dos unidades,cortante y marcador. Tamaño a elección",
+        "price": 475,
+        "thumbnail": [
+            "url/foto1",
+            "url/foto2",
+            "url/foto3"
+        ],
+        "code": "CB6",
+        "stock": 23,
+        "status": true,
+        "category": "cortantes",
+        "id": 13
+    }
+]
