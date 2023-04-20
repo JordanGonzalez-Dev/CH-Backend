@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="title">
+        <h4>Status: <span id="connect"></span></h4>
+        <h1 id="titulo"> Products Manager </h1>
+    </div>
+    <div class="main-container">
+        <div class="left-bar">
+            <form class="add-product" id="formulario">
+                <label for="deleteField">Title</label>
+                <input type="text" id="title">
+                <label for="description">Description</label>
+                <input type="text" id="description">
+                <label for="price">Price</label>
+                <input type="text" id="price">
+                <label for="thumbnail">Thumbnail</label>
+                <input type="text" id="thumbnail">
+                <label for="code">Code</label>
+                <input type="text" id="code">
+                <label for="stock">Stock</label>
+                <input type="text" id="stock">
+                <label for="status">Status</label>
+                <input type="text" id="status">
+                <label for="category">Category</label>
+                <input type="text" id="category">
+                <button type="submit" id="addP">Add product</button>
+            </form>
+
+            <div class = "delete-product">
+                <label for="deleteField">Product ID </product></label>
+                <input type="text" id="deleteField">
+                <button type="submit" id="deleteP">Delete</button>
+            </div>
+        </div>
+        <div class="container" id="products-container">
+            <h4 class="header-grid row-1"> Title</h4>
+            <h4 class="header-grid row-1"> Description</h4>
+            <h4 class="header-grid row-1"> Price</h4>
+            <h4 class="header-grid row-1"> Thumbnail</h4>
+            <h4 class="header-grid row-1"> Code</h4>
+            <h4 class="header-grid row-1"> Stock</h4>
+            <h4 class="header-grid row-1"> Id</h4>
+            <h4 class="header-grid row-1"> Status</h4>
+            <h4 class="header-grid row-1"> Category</h4>
+            <%for(let i=0; i<data.length; i++){%>
+                <p class="item-1"><%=data[i].title%></p>
+                <p class="item-2"><%=data[i].description%></p>
+                <p class="item-3"><%=data[i].price%></p>
+                <p class="item-4"><%=data[i].thumbnail%></p>
+                <p class="item-5"><%=data[i].code%></p>
+                <p class="item-6"><%=data[i].stock%></p>
+                <p class="item-7"><%=data[i].id%></p>
+                <p class="item-8"><%=data[i].status%></p>
+                <p class="item-9"><%=data[i].category%></p>
+            <%}%>
+        </div>
+    </div>
+    
+  
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="./js/socket.js"></script> 
+</html>
